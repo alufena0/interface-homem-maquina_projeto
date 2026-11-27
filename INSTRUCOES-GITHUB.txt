@@ -1,0 +1,30 @@
+COMO PUBLICAR A AURA NO GITHUB PAGES
+
+1. Baixe o arquivo ZIP e extraia em uma pasta do seu computador.
+2. Abra a pasta extraída chamada "aura-github-pages-visual-2.0".
+3. Selecione TUDO que está dentro dela: index.html, README.md, admin, assets e este arquivo.
+   Importante: não selecione/envie a pasta externa como uma subpasta do repositório.
+4. Entre em https://github.com/alufena0/interface-homem-maquina_projeto
+5. Na aba Code, clique em "Add file" e depois em "Upload files".
+6. Arraste os arquivos e a pasta admin e assets para a área de upload.
+7. Confirme que index.html aparece na raiz do repositório (não dentro de outra pasta).
+8. No fim da página, escreva uma mensagem como "Publica simulação Aurá completa" e clique em "Commit changes".
+9. Abra Settings > Pages e confira: Deploy from a branch / main / (root).
+10. Depois que o GitHub Pages concluir a publicação, abra:
+    https://alufena0.github.io/interface-homem-maquina_projeto/
+
+ÁREA DA EQUIPE:
+https://alufena0.github.io/interface-homem-maquina_projeto/admin/login.html
+
+Na tela de login, escolha o perfil. A senha de demonstração é 123456.
+
+Atenção: isto é uma simulação acadêmica estática. Os dados ficam no navegador (localStorage),
+não são compartilhados entre computadores e não existe pagamento, autenticação ou envio real.
+Use somente dados fictícios. Leia o README.md para conhecer os recursos e as pendências.
+
+
+ATUALIZACAO VISUAL 2.0
+- A pasta assets/images contem imagens ilustrativas locais geradas por IA. Nao remova essa pasta.
+- O arquivo assets/js/motion.js controla as transicoes e os spinners. Nao remova esse arquivo.
+- O projeto foi preparado para desktop e celular; no celular as navegacoes ficam na parte inferior.
+- Para publicar, substitua o conteudo antigo da raiz pelo conteudo deste pacote, incluindo index.html, admin/ e toda a pasta assets/.
